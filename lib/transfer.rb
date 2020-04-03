@@ -15,7 +15,7 @@ class Transfer
   end
   
   def execute_transaction
-    
+    #transfer @amount from @sender to @receiver
   end
   
 end
