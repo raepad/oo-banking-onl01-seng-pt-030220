@@ -13,5 +13,8 @@ class BankAccount
     @balance += credit
   end
   
+  def display_balance
+    @balance
+  end
   
 end
