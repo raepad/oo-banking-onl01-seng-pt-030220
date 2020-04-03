@@ -12,13 +12,10 @@ class Transfer
   
   def valid?
     @sender.valid? && @receiver.valid? ? true : false
-    # if @sender == BankAccount.valid? && @receiver == BankAccount.valid?
-    #   true 
-    # else 
-    #   false 
-    # end 
-    
   end
   
+  def execute_transaction
+    
+  end
   
 end
