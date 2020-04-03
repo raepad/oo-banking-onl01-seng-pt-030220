@@ -12,4 +12,6 @@ class BankAccount
     #for each deposit, add it to the balance
     self.each {|c| c += @balance}
   end
+  
+  
 end
