@@ -8,8 +8,8 @@ class BankAccount
     @status = "open"
   end
   
-  def deposit(money)
+  def deposit(credit)
     #for each deposit, add it to the balance
-    
+    credit.each {|c| c + @balance}
   end
 end
