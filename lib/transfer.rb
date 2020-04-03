@@ -21,7 +21,8 @@ class Transfer
       @receiver.balance += @amount
       @status == "complete"
     else
-      
+      "Transaction rejected. Please check your account balance."
+      @status == "rejected"
     
     #closed account or bad transfer to equal "Transaction rejected. Please check your account balance." and list the transfer.status as "rejected."
     
