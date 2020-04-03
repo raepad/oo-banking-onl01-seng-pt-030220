@@ -11,7 +11,8 @@ class Transfer
   end
   
   def valid?
-    BankAccount.valid?
+    if @sender == valid? && @receiver == valid?
+      
   end
   
   
