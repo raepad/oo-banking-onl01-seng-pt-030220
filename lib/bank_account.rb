@@ -9,7 +9,6 @@ class BankAccount
   end
   
   def deposit(credit)
-    #for each deposit, add it to the balance
     @balance += credit
   end
   
