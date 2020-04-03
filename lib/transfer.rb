@@ -11,7 +11,7 @@ class Transfer
   end
   
   def valid?
-    Bank_account.valid?
+    BankAccount.valid?
   end
   
   
