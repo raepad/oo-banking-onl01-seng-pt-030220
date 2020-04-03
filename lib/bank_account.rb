@@ -30,6 +30,7 @@ class BankAccount
       @status = "closed"
     else
       @status = "open"
+    end
   end
   
 end
