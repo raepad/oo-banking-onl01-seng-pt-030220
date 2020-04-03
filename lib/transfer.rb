@@ -12,7 +12,7 @@ class Transfer
   
   def valid?
     
-    if @sender == valid? && @receiver == valid?
+    if @sender == BankAccount.valid? && @receiver == BankAccount.valid?
       true 
     else 
       false 
