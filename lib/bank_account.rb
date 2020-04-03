@@ -26,7 +26,7 @@ class BankAccount
   end
   
   def close_account
-    "closed"
+    puts "closed"
   end
   
 end
