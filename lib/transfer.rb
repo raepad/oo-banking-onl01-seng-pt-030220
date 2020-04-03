@@ -23,8 +23,7 @@ class Transfer
     else
       "Transaction rejected. Please check your account balance."
       @status == "rejected"
-    
-    #closed account or bad transfer to equal "Transaction rejected. Please check your account balance." and list the transfer.status as "rejected."
+    end
     
     
   end
