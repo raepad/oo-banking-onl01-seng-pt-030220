@@ -17,7 +17,11 @@ class BankAccount
   end
   
   def valid?
-    @sender.valid? && @receiver.valid? ? true : false
+    if @status == "open" && @balance > 0 
+      true 
+    else 
+      false 
+    end
   end
   
   def close_account
