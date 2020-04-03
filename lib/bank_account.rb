@@ -9,6 +9,7 @@ class BankAccount
   end
   
   def deposit(money)
+    #for each deposit, add it to the balance
     
   end
 end
