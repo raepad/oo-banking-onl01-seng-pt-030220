@@ -17,7 +17,8 @@ class Transfer
   def execute_transaction
     #transfer @amount from @sender to @receiver
     if @sender.balance > @amount && valid?
-      
+      @sender.balance -= @amount
+      @receiver.balance += @amount
     
     #closed account or bad transfer to equal "Transaction rejected. Please check your account balance." and list the transfer.status as "rejected."
     
